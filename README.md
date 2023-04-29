@@ -22,4 +22,4 @@ to the output directory file path of your choosing
 
 (for example: output_image = os.path.join(r'C:\Users\User\Pictures\Output\', os.path.basename(os.path.splitext(input_image)[0])) + '.png')
 
-simply drag a .jpeg .jpg or a .jfif onto it and it will output the converted .png into the folder you chose!
+simply drag a .jpeg .jpg or a .jfif onto gptconverter.py and it will output the converted .png into the folder you chose!
