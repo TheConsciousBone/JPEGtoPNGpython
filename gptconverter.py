@@ -3,7 +3,7 @@ import sys
 from PIL import Image
 
 if len(sys.argv) < 2:
-    print('Usage: python convert_image.py <input_image>')
+    print('Usage: gptconverter.py <input_image>')
     sys.exit(1)
 
 input_image = sys.argv[1]
