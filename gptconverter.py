@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 input_image = sys.argv[1]
-output_image = os.path.join(r'C:\Users\Gaming Pc\Desktop\converter\output', os.path.basename(os.path.splitext(input_image)[0])) + '.png'
+output_image = os.path.join(r'YOUR OUTPUT FOLDER FILE PATH GOES HERE', os.path.basename(os.path.splitext(input_image)[0])) + '.png'
 
 if os.path.exists(input_image):
     try:
